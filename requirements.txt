@@ -1,0 +1,9 @@
+django
+crispy-bootstrap5
+djangorestframework
+django-crispy-forms
+python-dotenv
+psycopg2-binary
+requests
+django-filter
+django
