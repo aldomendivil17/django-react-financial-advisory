@@ -30,7 +30,7 @@ export default function Sidebar() {
             <span className="absolute left-full top-1/2 -translate-y-1/2 ml-2 px-2 py-1 bg-black text-white text-xs rounded opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none whitespace-nowrap z-10">Movimientos</span>
           )}
         </div>
-        <div className="relative group">
+        {/* <div className="relative group">
           <a href="#schedule" className="flex items-center gap-3 p-2 rounded hover:bg-[#623483ff] transition-colors">
             <FiCalendar size={22} />
             {expanded && <span>Schedule</span>}
@@ -65,7 +65,7 @@ export default function Sidebar() {
           {!expanded && (
             <span className="absolute left-full top-1/2 -translate-y-1/2 ml-2 px-2 py-1 bg-black text-white text-xs rounded opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none whitespace-nowrap z-10">Analytics</span>
           )}
-        </div>
+        </div> */}
       </nav>
     </aside>
   );
